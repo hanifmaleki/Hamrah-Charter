@@ -7,13 +7,16 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:layout_margin="0dp"
+        android:background="@drawable/splash"
+        android:contentDescription="@null"
         android:padding="0dp"
         android:src="@drawable/splash"
-        android:id="@+id/image"/>
+        tools:srcCompat="@drawable/splash" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleSmall"
